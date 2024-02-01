@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2rem;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, white, #faa57b);
+    overflow: hidden;
+}
+
+nav {
+    display: flex;
+    width: 80%;
+    margin: 20px auto;
+    align-items: center;
+    font-weight: 550;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 27%;
+    height: 20%;
+    margin-right: 12px;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+.nav-links ul a {
+    font-weight: 600;
+    color: #037f03;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.nav-links ul a:hover {
+    color: #003e16;
+}
+
